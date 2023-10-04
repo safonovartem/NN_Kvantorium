@@ -14,7 +14,7 @@ from keras.datasets import mnist
 
 (X_train, y_train), (X_test, y_test) = mnist.load_data()
 
-print(x_train.shape)
+print(X_train.shape)
 print(y_train.shape)
 
 plt.imshow(x_train[12], cmap='binary')
