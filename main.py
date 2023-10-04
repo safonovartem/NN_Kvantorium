@@ -12,7 +12,7 @@ from keras.layers import Dense, Flatten
 from keras.models import Sequential
 from keras.datasets import mnist
 
-(x_train, y_train), (x_test, y_test) = mnist.load_data()
+(X_train, y_train), (X_test, y_test) = mnist.load_data()
 
 print(x_train.shape)
 print(y_train.shape)
